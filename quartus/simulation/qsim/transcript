@@ -1,0 +1,33 @@
+# do mips_monociclo.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:57:15 on Oct 14,2026
+# vlog -work work mips_monociclo.vo 
+# -- Compiling module mips_monociclo
+# 
+# Top level modules:
+# 	mips_monociclo
+# End time: 15:57:15 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:57:15 on Oct 14,2026
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module mips_monociclo_vlg_vec_tst
+# 
+# Top level modules:
+# 	mips_monociclo_vlg_vec_tst
+# End time: 15:57:15 on Oct 14,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mips_monociclo_vlg_vec_tst 
+# Start time: 15:57:18 on Oct 14,2026
+# Loading work.mips_monociclo_vlg_vec_tst
+# Loading work.mips_monociclo
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#23
+# ** Note: $finish    : Waveform.vwf.vt(50)
+#    Time: 1 us  Iteration: 0  Instance: /mips_monociclo_vlg_vec_tst
+# End time: 15:57:19 on Oct 14,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
