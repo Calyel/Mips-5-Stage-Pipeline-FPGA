@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/mips_processor
+valu
+Z1 !s110 1792029312
+!i10b 1
+!s100 >RoCCL`:0VIQc^GaC]9Y63
+I`4>EI?GajIRFLPNobG=2Z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1792003508
+8rtl/alu.v
+Frtl/alu.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1792029312.000000
+Z5 !s107 tb/tb_alu.v|rtl/alu.v|
+Z6 !s90 -reportprogress|300|rtl/alu.v|tb/tb_alu.v|
+!i113 1
+Z7 tCvgOpt 0
+vregister_file
+Z8 !s110 1792030128
+!i10b 1
+!s100 eU1bDda3EEk_IK[ob`:gW0
+IXL^BlSNHSSFFM2E_naCiV3
+R2
+R0
+w1792006957
+8rtl/register_file.v
+Frtl/register_file.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z9 !s108 1792030128.000000
+Z10 !s107 tb/tb_register_file.v|rtl/register_file.v|
+Z11 !s90 -reportprogress|300|rtl/register_file.v|tb/tb_register_file.v|
+!i113 1
+R7
+vtb_alu
+R1
+!i10b 1
+!s100 VVF^VW8PiBIIC<@gVB2Q60
+IlBY_eb@4M7cX83ezA_Dfk3
+R2
+R0
+w1792028303
+8tb/tb_alu.v
+Ftb/tb_alu.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+vtb_register_file
+R8
+!i10b 1
+!s100 _=];CD5z9SPk7z03z1OkA0
+I:acQlf11P4jRMjzkYb5TW3
+R2
+R0
+w1792028388
+8tb/tb_register_file.v
+Ftb/tb_register_file.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R7
