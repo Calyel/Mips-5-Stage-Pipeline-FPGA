@@ -1,0 +1,46 @@
+# ==============================================================================
+# .gitignore - MIPS Pipeline FPGA
+# ==============================================================================
+
+# --- Simulação RTL (Icarus Verilog & GTKWave / ModelSim) ---
+build/
+*.vvp
+*.vcd
+sim_*.vcd
+dump.vcd
+a.out
+work/
+transcript
+vsim.wlf
+modelsim.ini
+
+# --- Síntese e Compilação Intel Quartus Prime ---
+quartus/db/
+quartus/incremental_db/
+quartus/output_files/
+quartus/simulation/
+db/
+incremental_db/
+output_files/
+simulation/
+*.rpt
+*.done
+*.summary
+*.jdi
+*.pin
+*.sof
+*.pof
+*.qws
+*.smsg
+*.chg
+*.qdf
+*.bak
+
+# --- Sistema Operacional e Editores / IDEs ---
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
